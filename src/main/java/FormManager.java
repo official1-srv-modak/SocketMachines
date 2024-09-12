@@ -29,7 +29,7 @@ public class FormManager extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		RequestDispatcher dispatcher = req.getRequestDispatcher("/form.jsp");
+		RequestDispatcher dispatcher = req.getRequestDispatcher("/form.html");
         dispatcher.forward(req, resp);
 	}
 

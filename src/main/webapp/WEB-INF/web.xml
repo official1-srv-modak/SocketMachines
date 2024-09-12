@@ -13,6 +13,6 @@
 	</servlet-mapping>
 	<display-name>SocketMachines</display-name>
 	<welcome-file-list>
-		<welcome-file>form.jsp</welcome-file>
+		<welcome-file>form.html</welcome-file>
 	</welcome-file-list>
 </web-app>
