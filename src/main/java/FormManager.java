@@ -56,11 +56,11 @@ public class FormManager extends HttpServlet {
 		response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>Quote Details</h1>");
-        out.println("<p>Socket Type: " + type + "</p>");
+        out.println("<h1>Price Details</h1>");
+        out.println("<p>Type: " + type + "</p>");
         out.println("<p>Quantity: " + quantity + "</p>");
-        out.println("<p>Customer Name: " + name + "</p>");
-        out.println("<p>Customer Email: " + email + "</p>");
+        out.println("<p>Name: " + name + "</p>");
+        out.println("<p>Email: " + email + "</p>");
         out.println("<p>Price: $" + price + "</p>");
         out.println("</body></html>");
 	}

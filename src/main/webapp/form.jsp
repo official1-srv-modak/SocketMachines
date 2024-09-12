@@ -17,20 +17,16 @@
             <option value="Type-C">Type C</option>
         </select>
 		<br>
-		<br>
         <label for="quantity">Quantity:</label>
         <input type="number" id="quantity" name="quantity" min="1" required>
-		<br>
 		<br>
 
         <label for="name">Customer Name:</label>
         <input type="text" id="name" name="name" required>
 		<br>
-		<br>
 
         <label for="email">Customer Email:</label>
         <input type="email" id="email" name="email" required>
-		<br>
 		<br>
 
         <button type="submit">Submit</button>
